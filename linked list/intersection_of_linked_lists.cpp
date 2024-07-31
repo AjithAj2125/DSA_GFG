@@ -22,6 +22,7 @@ int get_count(Node *head)
  }
  return count;
 }
+
 int get_intersection(Node *h1, Node *h2)
 {
  int c1 = get_count(h1);
